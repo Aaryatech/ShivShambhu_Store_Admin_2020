@@ -382,9 +382,7 @@
 				</div>
 			</div>
 			<!-- END Main Content -->
-			<footer>
-				<p>2018 © MONGINIS.</p>
-			</footer>
+			<jsp:include page="/WEB-INF/views/include/footer.jsp"></jsp:include>
 
 
 			<a id="btn-scrollup" class="btn btn-circle btn-lg" href="#"><i

@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>MONGINIS</title>
+	<title>Shiv Store Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="${pageContext.request.contextPath}/resources/img/monginislogo.jpg" type="image/x-icon" >
+	<link rel="icon" href="${pageContext.request.contextPath}/resources/img/favicon.ico" type="image/x-icon" >
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -18,6 +18,20 @@
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/vendor/daterangepicker/daterangepicker.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/util.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css">
+	<link rel="apple-touch-icon" href="${pageContext.request.contextPath}/resources/apple-icon.png">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/favicon.ico">
+
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/normalize.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/themify-icons.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/flag-icon.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/cs-skin-elastic.css">
+
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/scss/style.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800'
+	rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 <!-- <style type="text/css">
 .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("${pageContext.request.contextPath}/resources/img/cake.jpeg");
@@ -30,33 +44,44 @@
     padding-top: 0px;
 }
 </style>  class="container bg-overlay"-->
+<style type="text/css">
+.card-header {
+    background-color: rgba(0,0,0,0.00);
+    }
+    
+</style>
+
 </head>
-<body>
+<body class="bg-dark" style="background-color: #e7e1bf!important;">
 	
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
 				<form class="login100-form validate-form" id="form-login" action="loginProcess" method="post">
 				
-					<span class="login100-form-title p-b-33">
-						Account Login
+					<span class="login100-form-title p-b-33" align="center" style="font-family: 'Abril Fatface', cursive; font-size: 37px; font-weight: bold;color:#245345;">
+						Login
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid username is required">
-						<input class="input100" type="text" id="username" name="username" placeholder="Username">
+					<div class="validate-input" data-validate = "Valid username is required">				
+						<input class="input100" type="text" id="username" name="username" placeholder="Username"
+							style="margin-left: 4px; font-size:0.96em; border-radius:20px;">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
                   
-					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="password" id="userpassword" placeholder="Password">
+					<div class="rs1 validate-input" data-validate="Password is required">					
+						<input class="input100" type="password" name="password" id="userpassword" placeholder="Password"
+						style="margin-left: 4px; font-size:0.96em; border-radius:20px;">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
 					</div>
 
-					<div class="container-login100-form-btn m-t-20">
-						<button class="login100-form-btn">
-							Sign in
+					<div class="container-login100-form-btn m-t-20"
+					style="margin-left: 4px; font-size:0.96em; border-radius:20px;">
+						<button class="login100-form-btn" style="align-content: center; width: 30%; background-color:#6a7464; 
+							border-radius:21px; border-color: #748279; margin-left: 140px;">
+							Login
 						</button>
 					</div>
 	<c:if test="${not empty loginResponseMessage}">

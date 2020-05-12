@@ -147,7 +147,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #fbd6d6;
+  background: #e7e1bf;
 }
 
 .wrap-login100 {
@@ -207,7 +207,7 @@ iframe {
 
 /*---------------------------------------------*/
 input.input100 {
-  height: 68px;
+  height: 50px;
   padding: 0 25px 0 25px;
 }
 
@@ -354,6 +354,7 @@ input.input100 {
 
 .validate-input {
   position: relative;
+  margin-top: 5%;
 }
 
 .alert-validate::before {

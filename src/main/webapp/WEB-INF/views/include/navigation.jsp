@@ -70,8 +70,8 @@
 
 			<!-- BEGIN Navlist -->
 			<a class="navbar-brand" href="#"
-				style="width: 100%; text-align: center; padding: 15px 0px;"> <img
-				src="${pageContext.request.contextPath}/resources/img/monginislogo.png"
+				style="width: 100%; text-align: center; padding: 15px 0px;"> <img height="100"
+				src="${pageContext.request.contextPath}/resources/img/shambhu_logo.PNG"
 				style="position: relative;" alt="">
 			</a>
 			<div style="clear: both;"></div>
@@ -95,7 +95,7 @@
 
 
 
-				<a href="#" class="dropdown-toggle"> <i class="fa fa-list"></i>
+				<a href="#" class="dropdown-toggle" style="font-family: 'Merriweather', serif; font-size: 15px;"> <i class="fa fa-list"></i>
 					<span><c:out value="${allModuleList.moduleName}" /></span> <b class="arrow fa fa-angle-right"></b>
 				</a>
 				<!-- BEGIN Submenu -->
@@ -112,7 +112,8 @@
 							<li>
 						</c:otherwise>
 					</c:choose>
-					<a onclick="selectSubMod(${allSubModuleList.subModuleId},${allSubModuleList.moduleId})"  href="${pageContext.request.contextPath}/<c:out value="${allSubModuleList.subModuleMapping}" />"><c:out value="${allSubModuleList.subModulName}" /></a>
+					<a onclick="selectSubMod(${allSubModuleList.subModuleId},${allSubModuleList.moduleId})"  href="${pageContext.request.contextPath}/<c:out value="${allSubModuleList.subModuleMapping}" />"
+						style="font-family: 'Merriweather', serif; font-size: 15px;"><c:out value="${allSubModuleList.subModulName}" /></a>
 					</li>
 
 
@@ -137,7 +138,7 @@
 						<li>
 					</c:otherwise>
 				</c:choose>
-				<a href="#" class="dropdown-toggle"> <i class="fa fa-list"></i>
+				<a href="#" class="dropdown-toggle" style="font-family: 'Merriweather', serif;"> <i class="fa fa-list"></i>
 					<span>Logout</span> <b class="arrow fa fa-angle-right"></b>
 				</a>
 				<!-- BEGIN Submenu -->

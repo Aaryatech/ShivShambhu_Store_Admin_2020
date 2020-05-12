@@ -45,7 +45,7 @@
 					<div class="box" id="todayslist">
 						<div class="box-title">
 							<h3>
-								<i class="fa fa-table"></i> Welcome To Monginis Store Management
+								<i class="fa fa-table"></i> Welcome To Shiv Shambhu-Gajanan Stone Store Management
 							</h3>
 							<div class="box-tool">
 								 <a data-action="collapse" href="#"><i
@@ -69,9 +69,7 @@
 				</div>
 
 			</div>
-			<footer>
-				<p>2019 © MONGINIS</p>
-			</footer>
+		<jsp:include page="/WEB-INF/views/include/footer.jsp"></jsp:include>
 		</div>
 
 

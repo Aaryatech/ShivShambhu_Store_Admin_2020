@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>MONGINIS</title>
+<title>Shiv Store</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,14 +30,18 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/flaty.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/flaty-responsive.css">
 
-<link rel="icon" href="${pageContext.request.contextPath}/resources/img/monginislogo.jpg" type="image/x-icon" >
+<link rel="icon" href="${pageContext.request.contextPath}/resources/img/favicon.ico" type="image/x-icon" >
 </head>
 <body>
 
 
 	<!-- BEGIN Navbar -->
 
-	<div id="navbar" class="navbar"  style="width:100%; text-align:center; padding:0px 0px;">
+	<div id="navbar" class="navbar"  style="width:100%; padding:0px 0px;">
+		
+		<strong class="card-title" style="color: #58bdc3; font-size: 20px; font-family: 'Merriweather', serif; margin-left: 18%;">
+		Shiv Shambhu-Gajanan Stone Store </strong>
+		
 		<button type="button" class="navbar-toggle navbar-btn collapsed"
 			data-toggle="collapse" data-target="#sidebar">
 			<span class="fa fa-bars"></span>
@@ -49,7 +53,7 @@
 			<!-- BEGIN Button User -->
 			<li class="user-profile"><a data-toggle="dropdown" href="#"
 				class="user-menu dropdown-toggle" title="Logout"> <!--<img class="nav-user-photo" src="resoucres/img/demo/avatar/avatar1.jpg" alt="Penny's Photo" />-->
-					<span class="hhh" id="user_info" style="color: #fff;"> Admin  <i
+					<span class="hhh" id="user_info" style="color: #58bdc3;"> Admin  <i
 					class="fa fa-user"></i></span>
 			</a> <!-- BEGIN User Dropdown -->
 				<ul class="dropdown-menu dropdown-navbar" id="user_menu">
