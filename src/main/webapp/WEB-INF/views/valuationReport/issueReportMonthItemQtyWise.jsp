@@ -286,9 +286,7 @@
 					</div>
 					 
 				</div>
-				<footer>
-				<p>2019 © MONGINIS</p>
-			</footer>
+				<jsp:include page="/WEB-INF/views/include/footer.jsp"></jsp:include>
 			</div>
  
 		 
