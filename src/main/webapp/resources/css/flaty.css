@@ -4716,12 +4716,12 @@ div.tagsinput .not_valid {
 .flaty-nav > li.open,
 .flaty-nav > li.active,
 .flaty-nav > li:hover,
-.dropdown-navbar > li.nav-header {
+/* .dropdown-navbar > li.nav-header {
     background-color: #de1e83;
-}
-.dropdown-navbar > li.nav-header:hover {
+} */
+/* .dropdown-navbar > li.nav-header:hover {
     background-color: #de1e83!important;
-}
+} */
 .flaty-nav > li.open > a > .badge,
 .flaty-nav > li:hover > a > .badge {
     border-color: #4ca4ee;

@@ -59,12 +59,13 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
 				<form class="login100-form validate-form" id="form-login" action="loginProcess" method="post">
 				
-					<span class="login100-form-title p-b-33" align="center" style="font-family: 'Abril Fatface', cursive; font-size: 37px; font-weight: bold;color:#245345;">
-						Login
+					<span class="login100-form-title" align="center" style="font-family: 'Abril Fatface', cursive; font-size: 37px; 
+					border-bottom: 1px solid; font-weight: bold;color:#245345;">
+						STORE LOGIN
 					</span>
 
 					<div class="validate-input" data-validate = "Valid username is required">				
-						<input class="input100" type="text" id="username" name="username" placeholder="Username"
+						<input class="input100" type="text" id="username" name="username" placeholder="User Name"
 							style="margin-left: 4px; font-size:0.96em; border-radius:20px;">
 						<span class="focus-input100-1"></span>
 						<span class="focus-input100-2"></span>
@@ -79,14 +80,14 @@
 
 					<div class="container-login100-form-btn m-t-20"
 					style="margin-left: 4px; font-size:0.96em; border-radius:20px;">
-						<button class="login100-form-btn" style="align-content: center; width: 30%; background-color:#6a7464; 
-							border-radius:21px; border-color: #748279; margin-left: 140px;">
+						<button class="login100-form-btn" style="align-content: center; width: 270%; background-color:#6a7464; 
+							border-radius:21px; border-color: #748279;">
 							Login
 						</button>
 					</div>
-	<c:if test="${not empty loginResponseMessage}">
+	<%-- <c:if test="${not empty loginResponseMessage}">
    <!-- here would be a message with a result of processing -->
-    <div style="color:white;"> ${loginResponseMessage} </div>
+    <div style="color:black;"> ${loginResponseMessage} </div>
         	
 </c:if><div class="text-center p-t-45 p-b-4">
 					
@@ -107,7 +108,7 @@
 						<a href="#" class="txt2 hov1">
 							<!-- Sign up -->
 						</a>
-					</div>
+					</div> --%>
 				</form>
 			</div>
 		</div>
