@@ -59,9 +59,8 @@
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
 				<form class="login100-form validate-form" id="form-login" action="loginProcess" method="post">
 				
-					<span class="login100-form-title" align="center" style="font-family: 'Abril Fatface', cursive; font-size: 37px; 
-					border-bottom: 1px solid; font-weight: bold;color:#245345;">
-						STORE LOGIN
+					<span class="login100-form-title" align="center" style="font-family: 'Abril Fatface', cursive; font-size: 25px; color:#245345;">
+						Store Login
 					</span>
 
 					<div class="validate-input" data-validate = "Valid username is required">				
